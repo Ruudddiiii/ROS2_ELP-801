@@ -61,5 +61,11 @@ cd ~/turtlebot3_ws/src/
 git clone -b foxy-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 cd ~/turtlebot3_ws && colcon build --symlink-install
 ```
+**Launch Simulation World**
+```console
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+```
+You must be able to see the turtlebot in an empty world like the picture below
+![image](https://github.com/Ruudddiiii/ROS2_ELP-801/assets/107204888/a247dc00-939f-498f-9cb5-4c6f701049f0)
 
 
