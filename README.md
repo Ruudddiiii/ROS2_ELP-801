@@ -67,7 +67,14 @@ cd ~/turtlebot3_ws && colcon build --symlink-install
 ```console
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```
+
 You must be able to see the turtlebot in an empty world like the picture below
 ![image](https://github.com/Ruudddiiii/ROS2_ELP-801/assets/107204888/a247dc00-939f-498f-9cb5-4c6f701049f0)
 
+**In order to teleoperate the TurtleBot3 with the keyboard, launch the teleoperation node with below command in a new terminal window.**
+
+```console
+ros2 run turtlebot3_teleop teleop_keyboard
+```
+Now you can move the Turtlebot using W,A,S,X,D keys on your keyboard.
 
