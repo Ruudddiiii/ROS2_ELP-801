@@ -21,4 +21,12 @@ sudo apt-get install ros-foxy-gazebo-*
 sudo apt-get install ros-foxy-gazebo-*
 ```
 
+**Cartographer**
+
+
+```console
+sudo apt install ros-foxy-cartographer
+sudo apt install ros-foxy-cartographer-ros
+```
+
 
