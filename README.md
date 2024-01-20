@@ -28,5 +28,12 @@ sudo apt-get install ros-foxy-gazebo-*
 sudo apt install ros-foxy-cartographer
 sudo apt install ros-foxy-cartographer-ros
 ```
+**Navigation2**
+
+```console
+sudo apt install ros-foxy-navigation2
+sudo apt install ros-foxy-nav2-bringup
+```
+
 
 
