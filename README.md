@@ -12,7 +12,9 @@ bash ./install_ros2_foxy.sh
 ```
 sudo apt-get install ros-foxy-gazebo-*
 
-**After the execution of above commands run the below commands to install  Gazebo11**
+**After the execution of above commands run the below commands to install:**
+
+**Gazebo11**
 
 
 ```console
