@@ -44,7 +44,7 @@ sudo apt install ros-foxy-turtlebot3-msgs
 sudo apt install ros-foxy-turtlebot3
 ```
 
-## Set the ROS environment for PC
+**Set the ROS environment for PC**
 
 ```console
 echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
