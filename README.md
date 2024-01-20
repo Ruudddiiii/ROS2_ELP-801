@@ -1,7 +1,7 @@
 # ROS2_ELP-801
 Sample Codes and Resources for ELP-801
 
-# **Setting up ROS2 and simulation software Using Ubuntu 20.04**
+# Setting up ROS2 and simulation software Using Ubuntu 20.04
 
 **Open the terminal with Ctrl+Alt+T and enter below three commands one at a time to install ROS2.**
 
@@ -39,11 +39,13 @@ sudo apt install ros-foxy-nav2-bringup
 
 
 ```console
-$ source ~/.bashrc
-$ sudo apt install ros-foxy-dynamixel-sdk
-$ sudo apt install ros-foxy-turtlebot3-msgs
-$ sudo apt install ros-foxy-turtlebot3
+source ~/.bashrc
+sudo apt install ros-foxy-dynamixel-sdk
+sudo apt install ros-foxy-turtlebot3-msgs
+sudo apt install ros-foxy-turtlebot3
 ```
+
+##Set the ROS environment for PC
 
 
 
