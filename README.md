@@ -61,6 +61,8 @@ cd ~/turtlebot3_ws/src/
 git clone -b foxy-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 cd ~/turtlebot3_ws && colcon build --symlink-install
 ```
+**Now close all the terminals and open a new terminal and proceed below**
+
 **Launch Simulation World**
 ```console
 ros2 launch turtlebot3_gazebo empty_world.launch.py
