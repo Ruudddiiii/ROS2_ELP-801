@@ -35,5 +35,17 @@ sudo apt install ros-foxy-navigation2
 sudo apt install ros-foxy-nav2-bringup
 ```
 
+**Install TurtleBot3 Packages**
+
+
+```console
+$ source ~/.bashrc
+$ sudo apt install ros-foxy-dynamixel-sdk
+$ sudo apt install ros-foxy-turtlebot3-msgs
+$ sudo apt install ros-foxy-turtlebot3
+```
+
+
+
 
 
