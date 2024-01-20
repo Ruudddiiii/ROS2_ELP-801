@@ -11,13 +11,7 @@ sudo chmod 755 ./install_ros2_foxy.sh
 bash ./install_ros2_foxy.sh
 ```
 
-```js
-wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros2_foxy.sh
-sudo chmod 755 ./install_ros2_foxy.sh
-bash ./install_ros2_foxy.sh
 
-```
+**After the execution of above commands run the below commands to install  Gazebo11**
 
 
-'sudo chmod 755 ./install_ros2_foxy.sh'
-'bash ./install_ros2_foxy.sh'
