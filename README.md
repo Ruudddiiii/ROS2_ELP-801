@@ -52,9 +52,14 @@ echo 'export TURTLEBOT3_MODEL=burger' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-# Testing the Simulation
+# Testing the Gazebo Simulation
 
+**Install Simulation Package**
 
-
+```console
+cd ~/turtlebot3_ws/src/
+git clone -b foxy-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+cd ~/turtlebot3_ws && colcon build --symlink-install
+```
 
 
