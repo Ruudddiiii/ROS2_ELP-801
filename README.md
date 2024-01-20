@@ -11,7 +11,7 @@ sudo chmod 755 ./install_ros2_foxy.sh
 bash ./install_ros2_foxy.sh
 ```
 
-**After the execution of above commands run the below commands to install:**
+**After the execution of above commands run the commands below to install:**
 
 **Gazebo11**
 
