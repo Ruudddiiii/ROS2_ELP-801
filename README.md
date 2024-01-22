@@ -79,6 +79,7 @@ ros2 run turtlebot3_teleop teleop_keyboard
 Now you can move the Turtlebot using W,A,S,X,D keys on your keyboard.
 
 </br>
-
+# Updates
+</br>
 1. I've shared the move_fwd.py and ELP801_1.pptx files. Kindly review them; I've covered fundamental ROS2 concepts and provided a simple code snippet for moving the TurtleBot forward. I'll delve into the details during our class discussion, but it would be beneficial if you could familiarize yourself with the material beforehand.
 
