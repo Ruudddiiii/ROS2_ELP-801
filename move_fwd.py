@@ -28,7 +28,6 @@ class Turtlebot3PositionControl(Node):
             Twist,
             '/cmd_vel',
             qos)
-        
 
         self.timer4 = self.create_timer(0.1, self.same_orien1)  
 
@@ -38,9 +37,6 @@ class Turtlebot3PositionControl(Node):
         self.last_pose_y1 = msg.pose.pose.position.y
         _, _, self.last_pose_theta1 = self.euler_from_quaternion(msg.pose.pose.orientation)
 
-
-    
-        
     
     def same_orien1(self):
         
@@ -52,26 +48,6 @@ class Turtlebot3PositionControl(Node):
         else:
             twist.linear.x = 0.0
             self.cmd_pub1.publish(twist)
-
-           
-
-    def euler_from_quaternion(self, quat):
-        """
-        Convert quaternion (w in last place) to euler roll, pitch, yaw.
-
-        quat = [x, y, z, w]
-        """
-        z = quat.z
-        w = quat.w
-
-        roll = 0
-        pitch = 0
-
-        siny_cosp = 2 * w * z
-        cosy_cosp = 1 - 2 * z * z
-        yaw = numpy.arctan2(siny_cosp, cosy_cosp)
-
-        return roll, pitch, yaw
 
 
 def main(args=None):
