@@ -57,9 +57,9 @@ source ~/.bashrc
 **Install Simulation Package**
 
 ```console
-cd ~/turtlebot3_ws/src/
+cd ~/colcon_ws/src/
 git clone -b foxy-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-cd ~/turtlebot3_ws && colcon build --symlink-install
+cd ~/colcon_ws && colcon build --symlink-install
 ```
 **Now close all the terminals and open a new terminal and proceed below**
 
