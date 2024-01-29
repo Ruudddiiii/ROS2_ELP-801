@@ -3,7 +3,7 @@ Sample Codes and Resources for ELP-801
 
 ## Setting up ROS2 Foxy and Simulation Software on Ubuntu 20.04
 
-**Open the terminal with Ctrl+Alt+T and enter below three commands one at a time to install ROS2.**
+**Open the terminal with Ctrl+Alt+T and enter below three commands one at a time to install ROS2 Foxy.**
 
 ```console
 wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros2_foxy.sh
