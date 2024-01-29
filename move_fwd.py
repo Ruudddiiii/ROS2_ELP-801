@@ -35,8 +35,6 @@ class Turtlebot3PositionControl(Node):
     def odom_callback1(self, msg):
         self.last_pose_x1 = msg.pose.pose.position.x
         self.last_pose_y1 = msg.pose.pose.position.y
-        _, _, self.last_pose_theta1 = self.euler_from_quaternion(msg.pose.pose.orientation)
-
     
     def same_orien1(self):
         
