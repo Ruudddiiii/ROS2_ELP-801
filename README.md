@@ -78,6 +78,12 @@ ros2 run turtlebot3_teleop teleop_keyboard
 ```
 Now you can move the Turtlebot using W,A,S,X,D keys on your keyboard.
 
+## Assignment
+
+*Making a infinity sign
+[Screencast from 02-01-2024 02:22:31 PM.webm](https://github.com/Ruudddiiii/ROS2_ELP-801/assets/107204888/fc59e833-6db8-4592-9a12-4e27f3555f2e)
+
+
 
 ## Updates
 
