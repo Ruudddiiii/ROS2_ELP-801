@@ -86,7 +86,7 @@ Now you can move the Turtlebot using W,A,S,X,D keys on your keyboard.
 
 
 *Making a infinity sign
-https://github.com/Ruudddiiii/ROS2_ELP-801/assets/107204888/37f3c4f6-edb5-4b02-813e-b0884423b8af
+[infinity sign](https://github.com/Ruudddiiii/ROS2_ELP-801/assets/107204888/37f3c4f6-edb5-4b02-813e-b0884423b8af)
 
 
 
