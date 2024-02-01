@@ -80,9 +80,13 @@ Now you can move the Turtlebot using W,A,S,X,D keys on your keyboard.
 
 ## Assignment
 
+
+*Making a circle
+[circle](https://github.com/Ruudddiiii/ROS2_ELP-801/assets/107204888/d480d9b2-506e-4718-b6bb-7ffb339655d4)
+
+
 *Making a infinity sign
 https://github.com/Ruudddiiii/ROS2_ELP-801/assets/107204888/37f3c4f6-edb5-4b02-813e-b0884423b8af
-
 
 
 
