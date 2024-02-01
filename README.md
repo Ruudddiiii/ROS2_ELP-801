@@ -52,7 +52,7 @@ echo 'export TURTLEBOT3_MODEL=burger' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-# Testing the Gazebo Simulation
+## Testing the Gazebo Simulation
 
 **Install Simulation Package**
 
